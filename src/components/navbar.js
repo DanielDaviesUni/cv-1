@@ -48,7 +48,7 @@ function Navbar({ scrollToFooter }) {
                     </li>
                 </ul>
                 {button && (
-                <Button onClick={scrollToFooter} buttonStyle='btn--outline'>Get in Touch!</Button>
+                <Button onClick={scrollToFooter} buttonStyle='btn--outline' buttonSize='btn--large'>Get in Touch!</Button>
 )}
             </div>
         </nav>
