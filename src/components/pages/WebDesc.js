@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './content.css';
 
 function WebDesc({
-    lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
+    lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, buttonLink, img, alt, imgStart
 }) {
   return (
     <>
@@ -20,8 +20,8 @@ function WebDesc({
                   <div className='top-line'>{topLine}</div>
                   <h1 className={lightText ? 'heading' : 'heading-dark'}>{headline}</h1>
                   <p className={lightTextDesc ? 'subtitle' : 'subtitle-dark'}>{description}</p>
-                  <Link to='/'>
-                    <Button buttonStyle='btn--primary' buttonSize='btn--large'>{buttonLabel}</Button>
+                  <Link to={buttonLink}>
+                    <Button buttonStyle='btn--webdesc1' buttonSize='btn--large'>{buttonLabel}</Button>
                   </Link>
                 </div>
               </div>

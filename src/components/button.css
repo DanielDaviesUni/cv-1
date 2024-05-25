@@ -24,6 +24,13 @@
     transition: all 0.3s ease-out;
   }
   
+  .btn--webdesc1 {
+    background-color: #f00946;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+  }
+
   .btn--medium {
     padding: 8px 20px;
     font-size: 18px;

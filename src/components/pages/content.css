@@ -63,7 +63,7 @@
   }
   
   .darkBg {
-    background-color: #1c2237;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   }
   
   .subtitle {
@@ -100,7 +100,13 @@
     vertical-align: middle;
     display: inline-block;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: -50px;
+    transition: all 0.2s linear;
+  }
+
+  img:hover {
+    transform: scale(1.1);
   }
   
   @media screen and (max-width: 991px) {

@@ -13,13 +13,13 @@ function Cards() {
               src='/sadlergreen.png'
               text='E-Commerce Ceramic Decoration service'
               label='E-Commerce'
-              path='/services'
+              path='/sadlergreen'
             />
             <CardItem
               src='/Xerital.png'
               text='High Temperature Barcodes'
               label='Wordpress'
-              path='/services'
+              path='/Xerital'
             />
           </ul>
           <ul className='cards__items'>

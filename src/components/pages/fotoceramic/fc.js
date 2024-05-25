@@ -1,13 +1,14 @@
 import React from 'react'
 import WebDesc from '../WebDesc'
-import { fcObjone } from './data'
-import { fcObjtwo } from './data'
+import { fcObjfour, fcObjone, fcObjtwo, fcObjthree } from './data'
 
 function fc() {
   return (
     <>
     <WebDesc {...fcObjone}/>
     <WebDesc {...fcObjtwo}/>
+    <WebDesc {...fcObjthree}/>
+    <WebDesc {...fcObjfour}/>
     </>
   )
 }
